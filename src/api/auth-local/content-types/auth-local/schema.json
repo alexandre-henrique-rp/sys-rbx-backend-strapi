@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "auth_locals",
+  "info": {
+    "singularName": "auth-local",
+    "pluralName": "auth-locals",
+    "displayName": "auth/local",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "usuario": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "whatsapp": {
+      "type": "biginteger"
+    },
+    "senha": {
+      "type": "password"
+    },
+    "identificador": {
+      "type": "uid",
+      "required": true
+    },
+    "permission": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}
