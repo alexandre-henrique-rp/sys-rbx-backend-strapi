@@ -4,30 +4,175 @@
   "info": {
     "singularName": "produto",
     "pluralName": "produtos",
-    "displayName": "produto"
+    "displayName": "produto",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
-    "boxes_model": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+    "codigo": {
+      "type": "text"
+    },
+    "codigoItem": {
+      "type": "integer"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "tipo": {
       "type": "string"
     },
-    "clente": {
+    "situacao": {
+      "type": "string"
+    },
+    "descricaoCurta": {
+      "type": "text"
+    },
+    "descricaoComplementar": {
+      "type": "text"
+    },
+    "un": {
+      "type": "string"
+    },
+    "vlr_unit": {
+      "type": "decimal"
+    },
+    "preco_custo": {
+      "type": "decimal"
+    },
+    "peso_bruto": {
+      "type": "decimal"
+    },
+    "peso_liq": {
+      "type": "decimal"
+    },
+    "class_fiscal": {
+      "type": "text"
+    },
+    "marca": {
+      "type": "string"
+    },
+    "cest": {
+      "type": "string"
+    },
+    "origem": {
+      "type": "string"
+    },
+    "idGrupoProduto": {
+      "type": "decimal"
+    },
+    "condicao": {
+      "type": "text"
+    },
+    "freteGratis": {
+      "type": "string"
+    },
+    "linkExterno": {
+      "type": "text"
+    },
+    "observacoes": {
+      "type": "richtext"
+    },
+    "producao": {
+      "type": "string"
+    },
+    "unidadeMedida": {
+      "type": "string"
+    },
+    "dataValidade": {
+      "type": "date"
+    },
+    "descricaoFornecedor": {
+      "type": "text"
+    },
+    "idFabricante": {
+      "type": "decimal"
+    },
+    "codigoFabricante": {
+      "type": "text"
+    },
+    "gtin": {
+      "type": "text"
+    },
+    "gtinEmbalagem": {
+      "type": "text"
+    },
+    "largura": {
+      "type": "text"
+    },
+    "altura": {
+      "type": "string"
+    },
+    "profundidade": {
+      "type": "string"
+    },
+    "estoqueMinimo": {
+      "type": "decimal"
+    },
+    "estoqueMaximo": {
+      "type": "decimal"
+    },
+    "itensPorCaixa": {
+      "type": "decimal"
+    },
+    "volumes": {
+      "type": "decimal"
+    },
+    "urlVideo": {
+      "type": "text"
+    },
+    "localizacao": {
+      "type": "text"
+    },
+    "crossdocking": {
+      "type": "decimal"
+    },
+    "garantia": {
+      "type": "integer"
+    },
+    "spedTipoItem": {
+      "type": "integer"
+    },
+    "idCategoria": {
+      "type": "decimal"
+    },
+    "variacao": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::clente.clente",
-      "private": true
+      "relation": "manyToOne",
+      "target": "api::variacao.variacao",
+      "inversedBy": "produtos"
+    },
+    "imagen": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::imagen.imagen",
+      "inversedBy": "produtos"
+    },
+    "deposito": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::deposito.deposito",
+      "inversedBy": "produtos"
+    },
+    "estrutura": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::estrutura.estrutura",
+      "inversedBy": "produtos"
+    },
+    "componente": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::componente.componente",
+      "inversedBy": "produtos"
+    },
+    "produto_fornecedor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::produto-fornecedor.produto-fornecedor",
+      "inversedBy": "produtos"
     }
   }
 }

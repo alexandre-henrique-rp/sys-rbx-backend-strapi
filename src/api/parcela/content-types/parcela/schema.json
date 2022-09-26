@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parcelas",
+  "info": {
+    "singularName": "parcela",
+    "pluralName": "parcelas",
+    "displayName": "parcela"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dias": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "datetime"
+    },
+    "vlr": {
+      "type": "decimal"
+    },
+    "obs": {
+      "type": "text"
+    },
+    "pedidos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pedido.pedido",
+      "mappedBy": "parcela"
+    },
+    "propostacomercials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::propostacomercial.propostacomercial",
+      "mappedBy": "parcela"
+    }
+  }
+}
