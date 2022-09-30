@@ -1,0 +1,26 @@
+{
+	"nome": "string",
+	"codigo": "string",
+	"empresa": "string",
+	"comp": 0,
+	"larg": 0,
+	"alt": 0,
+	"pesoProd": 0,
+	"notas": "string",
+	"modelo": "string",
+	"ativo": true,
+	"custom": {},
+
+	"preco": 0,
+	"vFinal": 0,
+	"pesoCx": 0,
+	"compExt": 0,
+	"largExt": 0,
+	"altExt": 0,
+	"compExtDes": 0,
+	"largExtDes": 0,
+	"altExtDes": 0,
+	"volumes": 0,
+	"created_by": "string",
+	"updated_by": "string"
+}
