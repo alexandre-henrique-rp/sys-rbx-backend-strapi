@@ -1,0 +1,205 @@
+{
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "permissions": [
+    {
+      "action": "api::desconto.desconto.create"
+    },
+    {
+      "action": "api::desconto.desconto.delete"
+    },
+    {
+      "action": "api::desconto.desconto.find"
+    },
+    {
+      "action": "api::desconto.desconto.findOne"
+    },
+    {
+      "action": "api::desconto.desconto.update"
+    },
+    {
+      "action": "api::empresa.empresa.create"
+    },
+    {
+      "action": "api::empresa.empresa.delete"
+    },
+    {
+      "action": "api::empresa.empresa.find"
+    },
+    {
+      "action": "api::empresa.empresa.findOne"
+    },
+    {
+      "action": "api::empresa.empresa.update"
+    },
+    {
+      "action": "api::materia-prima.materia-prima.create"
+    },
+    {
+      "action": "api::materia-prima.materia-prima.delete"
+    },
+    {
+      "action": "api::materia-prima.materia-prima.find"
+    },
+    {
+      "action": "api::materia-prima.materia-prima.findOne"
+    },
+    {
+      "action": "api::materia-prima.materia-prima.update"
+    },
+    {
+      "action": "api::modelo.modelo.create"
+    },
+    {
+      "action": "api::modelo.modelo.delete"
+    },
+    {
+      "action": "api::modelo.modelo.find"
+    },
+    {
+      "action": "api::modelo.modelo.findOne"
+    },
+    {
+      "action": "api::modelo.modelo.update"
+    },
+    {
+      "action": "api::pessoa.pessoa.create"
+    },
+    {
+      "action": "api::pessoa.pessoa.delete"
+    },
+    {
+      "action": "api::pessoa.pessoa.find"
+    },
+    {
+      "action": "api::pessoa.pessoa.findOne"
+    },
+    {
+      "action": "api::pessoa.pessoa.update"
+    },
+    {
+      "action": "api::tipos-de-pe.tipos-de-pe.create"
+    },
+    {
+      "action": "api::tipos-de-pe.tipos-de-pe.delete"
+    },
+    {
+      "action": "api::tipos-de-pe.tipos-de-pe.find"
+    },
+    {
+      "action": "api::tipos-de-pe.tipos-de-pe.findOne"
+    },
+    {
+      "action": "api::tipos-de-pe.tipos-de-pe.update"
+    },
+    {
+      "action": "api::tipos-de-produto.tipos-de-produto.create"
+    },
+    {
+      "action": "api::tipos-de-produto.tipos-de-produto.delete"
+    },
+    {
+      "action": "api::tipos-de-produto.tipos-de-produto.find"
+    },
+    {
+      "action": "api::tipos-de-produto.tipos-de-produto.findOne"
+    },
+    {
+      "action": "api::tipos-de-produto.tipos-de-produto.update"
+    },
+    {
+      "action": "plugin::content-type-builder.components.getComponent"
+    },
+    {
+      "action": "plugin::content-type-builder.components.getComponents"
+    },
+    {
+      "action": "plugin::content-type-builder.content-types.getContentType"
+    },
+    {
+      "action": "plugin::content-type-builder.content-types.getContentTypes"
+    },
+    {
+      "action": "plugin::email.email.send"
+    },
+    {
+      "action": "plugin::i18n.locales.listLocales"
+    },
+    {
+      "action": "plugin::upload.content-api.destroy"
+    },
+    {
+      "action": "plugin::upload.content-api.find"
+    },
+    {
+      "action": "plugin::upload.content-api.findOne"
+    },
+    {
+      "action": "plugin::upload.content-api.upload"
+    },
+    {
+      "action": "plugin::users-permissions.auth.callback"
+    },
+    {
+      "action": "plugin::users-permissions.auth.changePassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.auth.emailConfirmation"
+    },
+    {
+      "action": "plugin::users-permissions.auth.forgotPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.auth.resetPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation"
+    },
+    {
+      "action": "plugin::users-permissions.permissions.getPermissions"
+    },
+    {
+      "action": "plugin::users-permissions.role.createRole"
+    },
+    {
+      "action": "plugin::users-permissions.role.deleteRole"
+    },
+    {
+      "action": "plugin::users-permissions.role.find"
+    },
+    {
+      "action": "plugin::users-permissions.role.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.role.updateRole"
+    },
+    {
+      "action": "plugin::users-permissions.user.count"
+    },
+    {
+      "action": "plugin::users-permissions.user.create"
+    },
+    {
+      "action": "plugin::users-permissions.user.destroy"
+    },
+    {
+      "action": "plugin::users-permissions.user.find"
+    },
+    {
+      "action": "plugin::users-permissions.user.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    },
+    {
+      "action": "plugin::users-permissions.user.update"
+    }
+  ]
+}

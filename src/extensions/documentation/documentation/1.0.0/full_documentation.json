@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-30T02:09:52.652Z"
+    "x-generation-date": "2022-10-15T20:18:42.482Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1578,6 +1578,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "status": {
+                "type": "boolean"
               }
             }
           }
@@ -3457,6 +3460,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -3662,6 +3668,9 @@
                     }
                   }
                 }
+              },
+              "status": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -5587,6 +5596,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -5792,6 +5804,9 @@
                     }
                   }
                 }
+              },
+              "status": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -7750,6 +7765,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -7955,6 +7973,9 @@
                     }
                   }
                 }
+              },
+              "status": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -9880,6 +9901,9 @@
                                             }
                                           }
                                         },
+                                        "status": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -10085,6 +10109,9 @@
                     }
                   }
                 }
+              },
+              "status": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -12718,6 +12745,9 @@
                               }
                             }
                           },
+                          "status": {
+                            "type": "boolean"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -13765,6 +13795,9 @@
                                 }
                               }
                             }
+                          },
+                          "status": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",
@@ -14847,6 +14880,9 @@
                               }
                             }
                           },
+                          "status": {
+                            "type": "boolean"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -15894,6 +15930,9 @@
                                 }
                               }
                             }
+                          },
+                          "status": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",
@@ -19537,6 +19576,9 @@
                                 }
                               }
                             },
+                            "status": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -21592,6 +21634,9 @@
                                   }
                                 }
                               }
+                            },
+                            "status": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",
@@ -23682,6 +23727,9 @@
                                 }
                               }
                             },
+                            "status": {
+                              "type": "boolean"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -25737,6 +25785,9 @@
                                   }
                                 }
                               }
+                            },
+                            "status": {
+                              "type": "boolean"
                             },
                             "createdAt": {
                               "type": "string",

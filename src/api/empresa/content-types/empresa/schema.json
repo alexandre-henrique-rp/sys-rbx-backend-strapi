@@ -4,7 +4,8 @@
   "info": {
     "singularName": "empresa",
     "pluralName": "empresas",
-    "displayName": "empresa"
+    "displayName": "empresa",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -95,6 +96,10 @@
       "relation": "manyToOne",
       "target": "api::pessoa.pessoa",
       "inversedBy": "empresas"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

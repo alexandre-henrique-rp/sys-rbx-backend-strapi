@@ -1,0 +1,538 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::empresa.empresa",
+  "value": {
+    "uid": "api::empresa.empresa",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "nome",
+      "defaultSortBy": "nome",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "nome": {
+        "edit": {
+          "label": "nome",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "nome",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "fantasia": {
+        "edit": {
+          "label": "fantasia",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "fantasia",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tipoPessoa": {
+        "edit": {
+          "label": "tipoPessoa",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "tipoPessoa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contribuinte": {
+        "edit": {
+          "label": "contribuinte",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contribuinte",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cpf_cnpj": {
+        "edit": {
+          "label": "cpf_cnpj",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cpf_cnpj",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "ie_rg": {
+        "edit": {
+          "label": "ie_rg",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "ie_rg",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "endereco": {
+        "edit": {
+          "label": "endereco",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "endereco",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "numero": {
+        "edit": {
+          "label": "numero",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "numero",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "complemento": {
+        "edit": {
+          "label": "complemento",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "complemento",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bairro": {
+        "edit": {
+          "label": "bairro",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bairro",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cep": {
+        "edit": {
+          "label": "cep",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cep",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cidade": {
+        "edit": {
+          "label": "cidade",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cidade",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "uf": {
+        "edit": {
+          "label": "uf",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "uf",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "fone": {
+        "edit": {
+          "label": "fone",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "fone",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "celular": {
+        "edit": {
+          "label": "celular",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "celular",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "email": {
+        "edit": {
+          "label": "email",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "email",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "emailNfe": {
+        "edit": {
+          "label": "emailNfe",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "emailNfe",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "informacaoContato": {
+        "edit": {
+          "label": "informacaoContato",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "informacaoContato",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "limiteCredito": {
+        "edit": {
+          "label": "limiteCredito",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "limiteCredito",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "paisOrigem": {
+        "edit": {
+          "label": "paisOrigem",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "paisOrigem",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "codigo": {
+        "edit": {
+          "label": "codigo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "codigo",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "site": {
+        "edit": {
+          "label": "site",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "site",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "obs": {
+        "edit": {
+          "label": "obs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "obs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "modelos": {
+        "edit": {
+          "label": "modelos",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "modelos",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "pessoa": {
+        "edit": {
+          "label": "pessoa",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "nome"
+        },
+        "list": {
+          "label": "pessoa",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "nome",
+        "fantasia",
+        "tipoPessoa"
+      ],
+      "editRelations": [
+        "modelos",
+        "pessoa"
+      ],
+      "edit": [
+        [
+          {
+            "name": "nome",
+            "size": 6
+          },
+          {
+            "name": "fantasia",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "tipoPessoa",
+            "size": 6
+          },
+          {
+            "name": "contribuinte",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "cpf_cnpj",
+            "size": 6
+          },
+          {
+            "name": "ie_rg",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "endereco",
+            "size": 6
+          },
+          {
+            "name": "numero",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "complemento",
+            "size": 6
+          },
+          {
+            "name": "bairro",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cep",
+            "size": 6
+          },
+          {
+            "name": "cidade",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "uf",
+            "size": 6
+          },
+          {
+            "name": "fone",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "celular",
+            "size": 6
+          },
+          {
+            "name": "email",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "emailNfe",
+            "size": 6
+          },
+          {
+            "name": "informacaoContato",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "limiteCredito",
+            "size": 4
+          },
+          {
+            "name": "paisOrigem",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "codigo",
+            "size": 6
+          },
+          {
+            "name": "site",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "obs",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

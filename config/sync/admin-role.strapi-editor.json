@@ -1,0 +1,562 @@
+{
+  "name": "Editor",
+  "code": "strapi-editor",
+  "description": "Editors can manage and publish contents including those of other users.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::desconto.desconto",
+      "properties": {
+        "fields": [
+          "nome",
+          "slug",
+          "ativo",
+          "percentual",
+          "validade"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::desconto.desconto",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::desconto.desconto",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::desconto.desconto",
+      "properties": {
+        "fields": [
+          "nome",
+          "slug",
+          "ativo",
+          "percentual",
+          "validade"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::desconto.desconto",
+      "properties": {
+        "fields": [
+          "nome",
+          "slug",
+          "ativo",
+          "percentual",
+          "validade"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::empresa.empresa",
+      "properties": {
+        "fields": [
+          "nome",
+          "fantasia",
+          "tipoPessoa",
+          "contribuinte",
+          "cpf_cnpj",
+          "ie_rg",
+          "endereco",
+          "numero",
+          "complemento",
+          "bairro",
+          "cep",
+          "cidade",
+          "uf",
+          "fone",
+          "celular",
+          "email",
+          "emailNfe",
+          "informacaoContato",
+          "limiteCredito",
+          "paisOrigem",
+          "codigo",
+          "site",
+          "obs",
+          "modelos",
+          "pessoa"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::empresa.empresa",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::empresa.empresa",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::empresa.empresa",
+      "properties": {
+        "fields": [
+          "nome",
+          "fantasia",
+          "tipoPessoa",
+          "contribuinte",
+          "cpf_cnpj",
+          "ie_rg",
+          "endereco",
+          "numero",
+          "complemento",
+          "bairro",
+          "cep",
+          "cidade",
+          "uf",
+          "fone",
+          "celular",
+          "email",
+          "emailNfe",
+          "informacaoContato",
+          "limiteCredito",
+          "paisOrigem",
+          "codigo",
+          "site",
+          "obs",
+          "modelos",
+          "pessoa"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::empresa.empresa",
+      "properties": {
+        "fields": [
+          "nome",
+          "fantasia",
+          "tipoPessoa",
+          "contribuinte",
+          "cpf_cnpj",
+          "ie_rg",
+          "endereco",
+          "numero",
+          "complemento",
+          "bairro",
+          "cep",
+          "cidade",
+          "uf",
+          "fone",
+          "celular",
+          "email",
+          "emailNfe",
+          "informacaoContato",
+          "limiteCredito",
+          "paisOrigem",
+          "codigo",
+          "site",
+          "obs",
+          "modelos",
+          "pessoa"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::materia-prima.materia-prima",
+      "properties": {
+        "fields": [
+          "nome",
+          "largura",
+          "espessura",
+          "precoCompra",
+          "unCompra",
+          "unVenda",
+          "precoVenda",
+          "comprimento"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::materia-prima.materia-prima",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::materia-prima.materia-prima",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::materia-prima.materia-prima",
+      "properties": {
+        "fields": [
+          "nome",
+          "largura",
+          "espessura",
+          "precoCompra",
+          "unCompra",
+          "unVenda",
+          "precoVenda",
+          "comprimento"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::materia-prima.materia-prima",
+      "properties": {
+        "fields": [
+          "nome",
+          "largura",
+          "espessura",
+          "precoCompra",
+          "unCompra",
+          "unVenda",
+          "precoVenda",
+          "comprimento"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::modelo.modelo",
+      "properties": {
+        "fields": [
+          "nome",
+          "slug",
+          "ativo",
+          "notas",
+          "partes",
+          "tipos_de_produto",
+          "temBase",
+          "temLateralDireita",
+          "temLateralEsquerda",
+          "temCabeceiraDireita",
+          "temCabeceiraEsquerda",
+          "temTampa",
+          "cabeceiraAoChao",
+          "cabeceiraAoTopo",
+          "lateraisPorFora",
+          "montagem.notas",
+          "montagem.fixadoresFixos",
+          "montagem.fixadoresSoltos",
+          "montagem.baseAnexada",
+          "montagem.lateralDireitaAnexada",
+          "montagem.lateralEsquerdaAnexada",
+          "montagem.cabeceiraDireitaAnexada",
+          "montagem.cabeceiraEsquerdaAnexada",
+          "montagem.tampaAnexada",
+          "montagem.enviarFechada",
+          "publico",
+          "empresa",
+          "exp",
+          "desconto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::modelo.modelo",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::modelo.modelo",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::modelo.modelo",
+      "properties": {
+        "fields": [
+          "nome",
+          "slug",
+          "ativo",
+          "notas",
+          "partes",
+          "tipos_de_produto",
+          "temBase",
+          "temLateralDireita",
+          "temLateralEsquerda",
+          "temCabeceiraDireita",
+          "temCabeceiraEsquerda",
+          "temTampa",
+          "cabeceiraAoChao",
+          "cabeceiraAoTopo",
+          "lateraisPorFora",
+          "montagem.notas",
+          "montagem.fixadoresFixos",
+          "montagem.fixadoresSoltos",
+          "montagem.baseAnexada",
+          "montagem.lateralDireitaAnexada",
+          "montagem.lateralEsquerdaAnexada",
+          "montagem.cabeceiraDireitaAnexada",
+          "montagem.cabeceiraEsquerdaAnexada",
+          "montagem.tampaAnexada",
+          "montagem.enviarFechada",
+          "publico",
+          "empresa",
+          "exp",
+          "desconto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::modelo.modelo",
+      "properties": {
+        "fields": [
+          "nome",
+          "slug",
+          "ativo",
+          "notas",
+          "partes",
+          "tipos_de_produto",
+          "temBase",
+          "temLateralDireita",
+          "temLateralEsquerda",
+          "temCabeceiraDireita",
+          "temCabeceiraEsquerda",
+          "temTampa",
+          "cabeceiraAoChao",
+          "cabeceiraAoTopo",
+          "lateraisPorFora",
+          "montagem.notas",
+          "montagem.fixadoresFixos",
+          "montagem.fixadoresSoltos",
+          "montagem.baseAnexada",
+          "montagem.lateralDireitaAnexada",
+          "montagem.lateralEsquerdaAnexada",
+          "montagem.cabeceiraDireitaAnexada",
+          "montagem.cabeceiraEsquerdaAnexada",
+          "montagem.tampaAnexada",
+          "montagem.enviarFechada",
+          "publico",
+          "empresa",
+          "exp",
+          "desconto"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::pessoa.pessoa",
+      "properties": {
+        "fields": [
+          "nome",
+          "sobrenome",
+          "telefone",
+          "email",
+          "empresas"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::pessoa.pessoa",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::pessoa.pessoa",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::pessoa.pessoa",
+      "properties": {
+        "fields": [
+          "nome",
+          "sobrenome",
+          "telefone",
+          "email",
+          "empresas"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::pessoa.pessoa",
+      "properties": {
+        "fields": [
+          "nome",
+          "sobrenome",
+          "telefone",
+          "email",
+          "empresas"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::tipos-de-pe.tipos-de-pe",
+      "properties": {
+        "fields": [
+          "nome",
+          "slug",
+          "image",
+          "notas",
+          "pe",
+          "longarina",
+          "toco",
+          "pregoG"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::tipos-de-pe.tipos-de-pe",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::tipos-de-pe.tipos-de-pe",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::tipos-de-pe.tipos-de-pe",
+      "properties": {
+        "fields": [
+          "nome",
+          "slug",
+          "image",
+          "notas",
+          "pe",
+          "longarina",
+          "toco",
+          "pregoG"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::tipos-de-pe.tipos-de-pe",
+      "properties": {
+        "fields": [
+          "nome",
+          "slug",
+          "image",
+          "notas",
+          "pe",
+          "longarina",
+          "toco",
+          "pregoG"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::tipos-de-produto.tipos-de-produto",
+      "properties": {
+        "fields": [
+          "nome",
+          "notas",
+          "slug",
+          "images"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::tipos-de-produto.tipos-de-produto",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::tipos-de-produto.tipos-de-produto",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::tipos-de-produto.tipos-de-produto",
+      "properties": {
+        "fields": [
+          "nome",
+          "notas",
+          "slug",
+          "images"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::tipos-de-produto.tipos-de-produto",
+      "properties": {
+        "fields": [
+          "nome",
+          "notas",
+          "slug",
+          "images"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}
