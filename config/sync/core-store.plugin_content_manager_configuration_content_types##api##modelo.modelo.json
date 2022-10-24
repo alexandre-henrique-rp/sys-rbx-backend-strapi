@@ -259,21 +259,6 @@
           "sortable": true
         }
       },
-      "empresa": {
-        "edit": {
-          "label": "empresa",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true,
-          "mainField": "nome"
-        },
-        "list": {
-          "label": "empresa",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "exp": {
         "edit": {
           "label": "exp",
@@ -338,11 +323,6 @@
         "nome",
         "slug",
         "ativo"
-      ],
-      "editRelations": [
-        "tipos_de_produto",
-        "empresa",
-        "desconto"
       ],
       "edit": [
         [
@@ -431,6 +411,10 @@
             "size": 4
           }
         ]
+      ],
+      "editRelations": [
+        "tipos_de_produto",
+        "desconto"
       ]
     }
   },

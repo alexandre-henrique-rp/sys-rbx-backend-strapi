@@ -59,120 +59,6 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
-      "subject": "api::empresa.empresa",
-      "properties": {
-        "fields": [
-          "nome",
-          "fantasia",
-          "tipoPessoa",
-          "contribuinte",
-          "cpf_cnpj",
-          "ie_rg",
-          "endereco",
-          "numero",
-          "complemento",
-          "bairro",
-          "cep",
-          "cidade",
-          "uf",
-          "fone",
-          "celular",
-          "email",
-          "emailNfe",
-          "informacaoContato",
-          "limiteCredito",
-          "paisOrigem",
-          "codigo",
-          "site",
-          "obs",
-          "modelos",
-          "pessoa"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::empresa.empresa",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::empresa.empresa",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::empresa.empresa",
-      "properties": {
-        "fields": [
-          "nome",
-          "fantasia",
-          "tipoPessoa",
-          "contribuinte",
-          "cpf_cnpj",
-          "ie_rg",
-          "endereco",
-          "numero",
-          "complemento",
-          "bairro",
-          "cep",
-          "cidade",
-          "uf",
-          "fone",
-          "celular",
-          "email",
-          "emailNfe",
-          "informacaoContato",
-          "limiteCredito",
-          "paisOrigem",
-          "codigo",
-          "site",
-          "obs",
-          "modelos",
-          "pessoa"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::empresa.empresa",
-      "properties": {
-        "fields": [
-          "nome",
-          "fantasia",
-          "tipoPessoa",
-          "contribuinte",
-          "cpf_cnpj",
-          "ie_rg",
-          "endereco",
-          "numero",
-          "complemento",
-          "bairro",
-          "cep",
-          "cidade",
-          "uf",
-          "fone",
-          "celular",
-          "email",
-          "emailNfe",
-          "informacaoContato",
-          "limiteCredito",
-          "paisOrigem",
-          "codigo",
-          "site",
-          "obs",
-          "modelos",
-          "pessoa"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
       "subject": "api::materia-prima.materia-prima",
       "properties": {
         "fields": [
@@ -265,7 +151,6 @@
           "montagem.tampaAnexada",
           "montagem.enviarFechada",
           "publico",
-          "empresa",
           "exp",
           "desconto"
         ]
@@ -315,7 +200,6 @@
           "montagem.tampaAnexada",
           "montagem.enviarFechada",
           "publico",
-          "empresa",
           "exp",
           "desconto"
         ]
@@ -353,7 +237,6 @@
           "montagem.tampaAnexada",
           "montagem.enviarFechada",
           "publico",
-          "empresa",
           "exp",
           "desconto"
         ]
@@ -368,8 +251,7 @@
           "nome",
           "sobrenome",
           "telefone",
-          "email",
-          "empresas"
+          "email"
         ]
       },
       "conditions": []
@@ -394,8 +276,7 @@
           "nome",
           "sobrenome",
           "telefone",
-          "email",
-          "empresas"
+          "email"
         ]
       },
       "conditions": []
@@ -408,8 +289,7 @@
           "nome",
           "sobrenome",
           "telefone",
-          "email",
-          "empresas"
+          "email"
         ]
       },
       "conditions": []

@@ -127,9 +127,6 @@
         "sobrenome",
         "telefone"
       ],
-      "editRelations": [
-        "empresas"
-      ],
       "edit": [
         [
           {
@@ -151,6 +148,9 @@
             "size": 6
           }
         ]
+      ],
+      "editRelations": [
+        "empresas"
       ]
     }
   },

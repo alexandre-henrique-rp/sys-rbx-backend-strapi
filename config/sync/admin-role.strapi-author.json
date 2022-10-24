@@ -61,122 +61,6 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
-      "subject": "api::empresa.empresa",
-      "properties": {
-        "fields": [
-          "bairro",
-          "celular",
-          "cep",
-          "cidade",
-          "codigo",
-          "complemento",
-          "contribuinte",
-          "cpf_cnpj",
-          "email",
-          "emailNfe",
-          "endereco",
-          "fantasia",
-          "fone",
-          "ie_rg",
-          "informacaoContato",
-          "limiteCredito",
-          "modelos",
-          "nome",
-          "numero",
-          "obs",
-          "paisOrigem",
-          "pessoa",
-          "site",
-          "tipoPessoa",
-          "uf"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::empresa.empresa",
-      "properties": {},
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::empresa.empresa",
-      "properties": {
-        "fields": [
-          "bairro",
-          "celular",
-          "cep",
-          "cidade",
-          "codigo",
-          "complemento",
-          "contribuinte",
-          "cpf_cnpj",
-          "email",
-          "emailNfe",
-          "endereco",
-          "fantasia",
-          "fone",
-          "ie_rg",
-          "informacaoContato",
-          "limiteCredito",
-          "modelos",
-          "nome",
-          "numero",
-          "obs",
-          "paisOrigem",
-          "pessoa",
-          "site",
-          "tipoPessoa",
-          "uf"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::empresa.empresa",
-      "properties": {
-        "fields": [
-          "bairro",
-          "celular",
-          "cep",
-          "cidade",
-          "codigo",
-          "complemento",
-          "contribuinte",
-          "cpf_cnpj",
-          "email",
-          "emailNfe",
-          "endereco",
-          "fantasia",
-          "fone",
-          "ie_rg",
-          "informacaoContato",
-          "limiteCredito",
-          "modelos",
-          "nome",
-          "numero",
-          "obs",
-          "paisOrigem",
-          "pessoa",
-          "site",
-          "tipoPessoa",
-          "uf"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
       "subject": "api::materia-prima.materia-prima",
       "properties": {
         "fields": [
@@ -245,35 +129,34 @@
       "subject": "api::modelo.modelo",
       "properties": {
         "fields": [
-          "ativo",
-          "cabeceiraAoChao",
-          "cabeceiraAoTopo",
-          "desconto",
-          "empresa",
-          "exp",
-          "lateraisPorFora",
-          "montagem.baseAnexada",
-          "montagem.cabeceiraDireitaAnexada",
-          "montagem.cabeceiraEsquerdaAnexada",
-          "montagem.enviarFechada",
-          "montagem.fixadoresFixos",
-          "montagem.fixadoresSoltos",
-          "montagem.lateralDireitaAnexada",
-          "montagem.lateralEsquerdaAnexada",
-          "montagem.notas",
-          "montagem.tampaAnexada",
           "nome",
+          "slug",
+          "ativo",
           "notas",
           "partes",
-          "publico",
-          "slug",
+          "tipos_de_produto",
           "temBase",
-          "temCabeceiraDireita",
-          "temCabeceiraEsquerda",
           "temLateralDireita",
           "temLateralEsquerda",
+          "temCabeceiraDireita",
+          "temCabeceiraEsquerda",
           "temTampa",
-          "tipos_de_produto"
+          "cabeceiraAoChao",
+          "cabeceiraAoTopo",
+          "lateraisPorFora",
+          "montagem.notas",
+          "montagem.fixadoresFixos",
+          "montagem.fixadoresSoltos",
+          "montagem.baseAnexada",
+          "montagem.lateralDireitaAnexada",
+          "montagem.lateralEsquerdaAnexada",
+          "montagem.cabeceiraDireitaAnexada",
+          "montagem.cabeceiraEsquerdaAnexada",
+          "montagem.tampaAnexada",
+          "montagem.enviarFechada",
+          "publico",
+          "exp",
+          "desconto"
         ]
       },
       "conditions": [
@@ -293,35 +176,34 @@
       "subject": "api::modelo.modelo",
       "properties": {
         "fields": [
-          "ativo",
-          "cabeceiraAoChao",
-          "cabeceiraAoTopo",
-          "desconto",
-          "empresa",
-          "exp",
-          "lateraisPorFora",
-          "montagem.baseAnexada",
-          "montagem.cabeceiraDireitaAnexada",
-          "montagem.cabeceiraEsquerdaAnexada",
-          "montagem.enviarFechada",
-          "montagem.fixadoresFixos",
-          "montagem.fixadoresSoltos",
-          "montagem.lateralDireitaAnexada",
-          "montagem.lateralEsquerdaAnexada",
-          "montagem.notas",
-          "montagem.tampaAnexada",
           "nome",
+          "slug",
+          "ativo",
           "notas",
           "partes",
-          "publico",
-          "slug",
+          "tipos_de_produto",
           "temBase",
-          "temCabeceiraDireita",
-          "temCabeceiraEsquerda",
           "temLateralDireita",
           "temLateralEsquerda",
+          "temCabeceiraDireita",
+          "temCabeceiraEsquerda",
           "temTampa",
-          "tipos_de_produto"
+          "cabeceiraAoChao",
+          "cabeceiraAoTopo",
+          "lateraisPorFora",
+          "montagem.notas",
+          "montagem.fixadoresFixos",
+          "montagem.fixadoresSoltos",
+          "montagem.baseAnexada",
+          "montagem.lateralDireitaAnexada",
+          "montagem.lateralEsquerdaAnexada",
+          "montagem.cabeceiraDireitaAnexada",
+          "montagem.cabeceiraEsquerdaAnexada",
+          "montagem.tampaAnexada",
+          "montagem.enviarFechada",
+          "publico",
+          "exp",
+          "desconto"
         ]
       },
       "conditions": [
@@ -333,35 +215,34 @@
       "subject": "api::modelo.modelo",
       "properties": {
         "fields": [
-          "ativo",
-          "cabeceiraAoChao",
-          "cabeceiraAoTopo",
-          "desconto",
-          "empresa",
-          "exp",
-          "lateraisPorFora",
-          "montagem.baseAnexada",
-          "montagem.cabeceiraDireitaAnexada",
-          "montagem.cabeceiraEsquerdaAnexada",
-          "montagem.enviarFechada",
-          "montagem.fixadoresFixos",
-          "montagem.fixadoresSoltos",
-          "montagem.lateralDireitaAnexada",
-          "montagem.lateralEsquerdaAnexada",
-          "montagem.notas",
-          "montagem.tampaAnexada",
           "nome",
+          "slug",
+          "ativo",
           "notas",
           "partes",
-          "publico",
-          "slug",
+          "tipos_de_produto",
           "temBase",
-          "temCabeceiraDireita",
-          "temCabeceiraEsquerda",
           "temLateralDireita",
           "temLateralEsquerda",
+          "temCabeceiraDireita",
+          "temCabeceiraEsquerda",
           "temTampa",
-          "tipos_de_produto"
+          "cabeceiraAoChao",
+          "cabeceiraAoTopo",
+          "lateraisPorFora",
+          "montagem.notas",
+          "montagem.fixadoresFixos",
+          "montagem.fixadoresSoltos",
+          "montagem.baseAnexada",
+          "montagem.lateralDireitaAnexada",
+          "montagem.lateralEsquerdaAnexada",
+          "montagem.cabeceiraDireitaAnexada",
+          "montagem.cabeceiraEsquerdaAnexada",
+          "montagem.tampaAnexada",
+          "montagem.enviarFechada",
+          "publico",
+          "exp",
+          "desconto"
         ]
       },
       "conditions": [
@@ -373,11 +254,10 @@
       "subject": "api::pessoa.pessoa",
       "properties": {
         "fields": [
-          "email",
-          "empresas",
           "nome",
           "sobrenome",
-          "telefone"
+          "telefone",
+          "email"
         ]
       },
       "conditions": [
@@ -397,11 +277,10 @@
       "subject": "api::pessoa.pessoa",
       "properties": {
         "fields": [
-          "email",
-          "empresas",
           "nome",
           "sobrenome",
-          "telefone"
+          "telefone",
+          "email"
         ]
       },
       "conditions": [
@@ -413,11 +292,10 @@
       "subject": "api::pessoa.pessoa",
       "properties": {
         "fields": [
-          "email",
-          "empresas",
           "nome",
           "sobrenome",
-          "telefone"
+          "telefone",
+          "email"
         ]
       },
       "conditions": [
