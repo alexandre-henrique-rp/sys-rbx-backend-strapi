@@ -54,14 +54,17 @@
     "obs": {
       "type": "richtext"
     },
+    "status": {
+      "type": "boolean"
+    },
     "empresas": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::empresa.empresa",
-      "mappedBy": "responsavel"
+      "mappedBy": "pessoa"
     },
-    "status": {
-      "type": "boolean"
+    "complemento": {
+      "type": "string"
     }
   }
 }

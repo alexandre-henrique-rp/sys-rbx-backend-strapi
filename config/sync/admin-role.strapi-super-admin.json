@@ -98,7 +98,6 @@
           "engResi",
           "email",
           "emailNfe",
-          "pessoa",
           "tablecalc",
           "maxPg",
           "forpg",
@@ -108,7 +107,8 @@
           "fone",
           "celular",
           "CNAE",
-          "codpais"
+          "codpais",
+          "pessoa"
         ]
       },
       "conditions": []
@@ -166,7 +166,6 @@
           "engResi",
           "email",
           "emailNfe",
-          "pessoa",
           "tablecalc",
           "maxPg",
           "forpg",
@@ -176,7 +175,8 @@
           "fone",
           "celular",
           "CNAE",
-          "codpais"
+          "codpais",
+          "pessoa"
         ]
       },
       "conditions": []
@@ -222,7 +222,6 @@
           "engResi",
           "email",
           "emailNfe",
-          "pessoa",
           "tablecalc",
           "maxPg",
           "forpg",
@@ -232,7 +231,8 @@
           "fone",
           "celular",
           "CNAE",
-          "codpais"
+          "codpais",
+          "pessoa"
         ]
       },
       "conditions": []
@@ -429,10 +429,21 @@
       "properties": {
         "fields": [
           "nome",
-          "sobrenome",
+          "CEP",
+          "endereco",
+          "numero",
+          "bairro",
+          "cidade",
+          "uf",
+          "CPF",
+          "RG",
+          "whatsapp",
           "telefone",
           "email",
-          "empresas"
+          "pais",
+          "obs",
+          "status",
+          "empresa"
         ]
       },
       "conditions": []
@@ -455,10 +466,21 @@
       "properties": {
         "fields": [
           "nome",
-          "sobrenome",
+          "CEP",
+          "endereco",
+          "numero",
+          "bairro",
+          "cidade",
+          "uf",
+          "CPF",
+          "RG",
+          "whatsapp",
           "telefone",
           "email",
-          "empresas"
+          "pais",
+          "obs",
+          "status",
+          "empresa"
         ]
       },
       "conditions": []
@@ -469,10 +491,21 @@
       "properties": {
         "fields": [
           "nome",
-          "sobrenome",
+          "CEP",
+          "endereco",
+          "numero",
+          "bairro",
+          "cidade",
+          "uf",
+          "CPF",
+          "RG",
+          "whatsapp",
           "telefone",
           "email",
-          "empresas"
+          "pais",
+          "obs",
+          "status",
+          "empresa"
         ]
       },
       "conditions": []

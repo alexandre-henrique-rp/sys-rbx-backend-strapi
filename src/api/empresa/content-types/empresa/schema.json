@@ -120,11 +120,6 @@
     "emailNfe": {
       "type": "string"
     },
-    "pessoa": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::pessoa.pessoa"
-    },
     "tablecalc": {
       "type": "string"
     },
@@ -155,7 +150,7 @@
     "codpais": {
       "type": "string"
     },
-    "responsavel": {
+    "pessoa": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::pessoa.pessoa",
