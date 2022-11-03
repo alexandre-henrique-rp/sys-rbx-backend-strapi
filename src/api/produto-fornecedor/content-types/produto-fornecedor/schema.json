@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produto_fornecedors",
+  "info": {
+    "singularName": "produto-fornecedor",
+    "pluralName": "produto-fornecedors",
+    "displayName": "produtoFornecedor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "produtoDescricao": {
+      "type": "text"
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::produto.produto",
+      "mappedBy": "produto_fornecedor"
+    },
+    "fornecedor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::fornecedor.fornecedor",
+      "inversedBy": "produto_fornecedors"
+    },
+    "produtoCodigo": {
+      "type": "text"
+    },
+    "precoCompra": {
+      "type": "decimal"
+    },
+    "precoCusto": {
+      "type": "decimal"
+    },
+    "produtoGarantia": {
+      "type": "integer"
+    },
+    "padrao": {
+      "type": "integer"
+    }
+  }
+}

@@ -15,7 +15,7 @@
     "@strapi/plugin-documentation": "^4.4.3",
     "@strapi/plugin-i18n": "4.4.0",
     "@strapi/plugin-users-permissions": "4.3.9",
-    "@strapi/strapi": "4.4.3",
+    "@strapi/strapi": "4.4.5",
     "mysql": "2.18.1",
     "strapi-plugin-config-sync": "^1.0.4"
   },

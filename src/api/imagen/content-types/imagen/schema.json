@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imagens",
+  "info": {
+    "singularName": "imagen",
+    "pluralName": "imagens",
+    "displayName": "imagen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "url": {
+      "type": "text"
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::produto.produto",
+      "mappedBy": "imagen"
+    }
+  }
+}

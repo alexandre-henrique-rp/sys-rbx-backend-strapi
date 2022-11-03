@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-10-23T18:39:07.369Z"
+    "x-generation-date": "2022-10-29T01:46:04.787Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1587,17 +1587,6 @@
               "emailNfe": {
                 "type": "string"
               },
-              "pessoa": {
-                "oneOf": [
-                  {
-                    "type": "integer"
-                  },
-                  {
-                    "type": "string"
-                  }
-                ],
-                "example": "string or id"
-              },
               "tablecalc": {
                 "type": "string"
               },
@@ -1628,7 +1617,7 @@
               "codpais": {
                 "type": "string"
               },
-              "responsavel": {
+              "pessoa": {
                 "oneOf": [
                   {
                     "type": "integer"
@@ -1760,6 +1749,36 @@
               "emailNfe": {
                 "type": "string"
               },
+              "tablecalc": {
+                "type": "string"
+              },
+              "maxPg": {
+                "type": "string"
+              },
+              "forpg": {
+                "type": "string"
+              },
+              "frete": {
+                "type": "string"
+              },
+              "CNPJ": {
+                "type": "string"
+              },
+              "Ie": {
+                "type": "string"
+              },
+              "fone": {
+                "type": "string"
+              },
+              "celular": {
+                "type": "string"
+              },
+              "CNAE": {
+                "type": "string"
+              },
+              "codpais": {
+                "type": "string"
+              },
               "pessoa": {
                 "type": "object",
                 "properties": {
@@ -1813,6 +1832,9 @@
                           },
                           "obs": {
                             "type": "string"
+                          },
+                          "status": {
+                            "type": "boolean"
                           },
                           "empresas": {
                             "type": "object",
@@ -1936,23 +1958,6 @@
                                         "emailNfe": {
                                           "type": "string"
                                         },
-                                        "pessoa": {
-                                          "type": "object",
-                                          "properties": {
-                                            "data": {
-                                              "type": "object",
-                                              "properties": {
-                                                "id": {
-                                                  "type": "number"
-                                                },
-                                                "attributes": {
-                                                  "type": "object",
-                                                  "properties": {}
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
                                         "tablecalc": {
                                           "type": "string"
                                         },
@@ -1983,7 +1988,7 @@
                                         "codpais": {
                                           "type": "string"
                                         },
-                                        "responsavel": {
+                                        "pessoa": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -2304,8 +2309,8 @@
                               }
                             }
                           },
-                          "status": {
-                            "type": "boolean"
+                          "complemento": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -2354,53 +2359,6 @@
                             }
                           }
                         }
-                      }
-                    }
-                  }
-                }
-              },
-              "tablecalc": {
-                "type": "string"
-              },
-              "maxPg": {
-                "type": "string"
-              },
-              "forpg": {
-                "type": "string"
-              },
-              "frete": {
-                "type": "string"
-              },
-              "CNPJ": {
-                "type": "string"
-              },
-              "Ie": {
-                "type": "string"
-              },
-              "fone": {
-                "type": "string"
-              },
-              "celular": {
-                "type": "string"
-              },
-              "CNAE": {
-                "type": "string"
-              },
-              "codpais": {
-                "type": "string"
-              },
-              "responsavel": {
-                "type": "object",
-                "properties": {
-                  "data": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "number"
-                      },
-                      "attributes": {
-                        "type": "object",
-                        "properties": {}
                       }
                     }
                   }
@@ -2573,6 +2531,36 @@
               "emailNfe": {
                 "type": "string"
               },
+              "tablecalc": {
+                "type": "string"
+              },
+              "maxPg": {
+                "type": "string"
+              },
+              "forpg": {
+                "type": "string"
+              },
+              "frete": {
+                "type": "string"
+              },
+              "CNPJ": {
+                "type": "string"
+              },
+              "Ie": {
+                "type": "string"
+              },
+              "fone": {
+                "type": "string"
+              },
+              "celular": {
+                "type": "string"
+              },
+              "CNAE": {
+                "type": "string"
+              },
+              "codpais": {
+                "type": "string"
+              },
               "pessoa": {
                 "type": "object",
                 "properties": {
@@ -2626,6 +2614,9 @@
                           },
                           "obs": {
                             "type": "string"
+                          },
+                          "status": {
+                            "type": "boolean"
                           },
                           "empresas": {
                             "type": "object",
@@ -2749,23 +2740,6 @@
                                         "emailNfe": {
                                           "type": "string"
                                         },
-                                        "pessoa": {
-                                          "type": "object",
-                                          "properties": {
-                                            "data": {
-                                              "type": "object",
-                                              "properties": {
-                                                "id": {
-                                                  "type": "number"
-                                                },
-                                                "attributes": {
-                                                  "type": "object",
-                                                  "properties": {}
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
                                         "tablecalc": {
                                           "type": "string"
                                         },
@@ -2796,7 +2770,7 @@
                                         "codpais": {
                                           "type": "string"
                                         },
-                                        "responsavel": {
+                                        "pessoa": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -3117,8 +3091,8 @@
                               }
                             }
                           },
-                          "status": {
-                            "type": "boolean"
+                          "complemento": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -3167,53 +3141,6 @@
                             }
                           }
                         }
-                      }
-                    }
-                  }
-                }
-              },
-              "tablecalc": {
-                "type": "string"
-              },
-              "maxPg": {
-                "type": "string"
-              },
-              "forpg": {
-                "type": "string"
-              },
-              "frete": {
-                "type": "string"
-              },
-              "CNPJ": {
-                "type": "string"
-              },
-              "Ie": {
-                "type": "string"
-              },
-              "fone": {
-                "type": "string"
-              },
-              "celular": {
-                "type": "string"
-              },
-              "CNAE": {
-                "type": "string"
-              },
-              "codpais": {
-                "type": "string"
-              },
-              "responsavel": {
-                "type": "object",
-                "properties": {
-                  "data": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "number"
-                      },
-                      "attributes": {
-                        "type": "object",
-                        "properties": {}
                       }
                     }
                   }
@@ -3419,6 +3346,36 @@
               "emailNfe": {
                 "type": "string"
               },
+              "tablecalc": {
+                "type": "string"
+              },
+              "maxPg": {
+                "type": "string"
+              },
+              "forpg": {
+                "type": "string"
+              },
+              "frete": {
+                "type": "string"
+              },
+              "CNPJ": {
+                "type": "string"
+              },
+              "Ie": {
+                "type": "string"
+              },
+              "fone": {
+                "type": "string"
+              },
+              "celular": {
+                "type": "string"
+              },
+              "CNAE": {
+                "type": "string"
+              },
+              "codpais": {
+                "type": "string"
+              },
               "pessoa": {
                 "type": "object",
                 "properties": {
@@ -3472,6 +3429,9 @@
                           },
                           "obs": {
                             "type": "string"
+                          },
+                          "status": {
+                            "type": "boolean"
                           },
                           "empresas": {
                             "type": "object",
@@ -3595,23 +3555,6 @@
                                         "emailNfe": {
                                           "type": "string"
                                         },
-                                        "pessoa": {
-                                          "type": "object",
-                                          "properties": {
-                                            "data": {
-                                              "type": "object",
-                                              "properties": {
-                                                "id": {
-                                                  "type": "number"
-                                                },
-                                                "attributes": {
-                                                  "type": "object",
-                                                  "properties": {}
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
                                         "tablecalc": {
                                           "type": "string"
                                         },
@@ -3642,7 +3585,7 @@
                                         "codpais": {
                                           "type": "string"
                                         },
-                                        "responsavel": {
+                                        "pessoa": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -3963,8 +3906,8 @@
                               }
                             }
                           },
-                          "status": {
-                            "type": "boolean"
+                          "complemento": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -4013,53 +3956,6 @@
                             }
                           }
                         }
-                      }
-                    }
-                  }
-                }
-              },
-              "tablecalc": {
-                "type": "string"
-              },
-              "maxPg": {
-                "type": "string"
-              },
-              "forpg": {
-                "type": "string"
-              },
-              "frete": {
-                "type": "string"
-              },
-              "CNPJ": {
-                "type": "string"
-              },
-              "Ie": {
-                "type": "string"
-              },
-              "fone": {
-                "type": "string"
-              },
-              "celular": {
-                "type": "string"
-              },
-              "CNAE": {
-                "type": "string"
-              },
-              "codpais": {
-                "type": "string"
-              },
-              "responsavel": {
-                "type": "object",
-                "properties": {
-                  "data": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "number"
-                      },
-                      "attributes": {
-                        "type": "object",
-                        "properties": {}
                       }
                     }
                   }
@@ -4232,6 +4128,36 @@
               "emailNfe": {
                 "type": "string"
               },
+              "tablecalc": {
+                "type": "string"
+              },
+              "maxPg": {
+                "type": "string"
+              },
+              "forpg": {
+                "type": "string"
+              },
+              "frete": {
+                "type": "string"
+              },
+              "CNPJ": {
+                "type": "string"
+              },
+              "Ie": {
+                "type": "string"
+              },
+              "fone": {
+                "type": "string"
+              },
+              "celular": {
+                "type": "string"
+              },
+              "CNAE": {
+                "type": "string"
+              },
+              "codpais": {
+                "type": "string"
+              },
               "pessoa": {
                 "type": "object",
                 "properties": {
@@ -4285,6 +4211,9 @@
                           },
                           "obs": {
                             "type": "string"
+                          },
+                          "status": {
+                            "type": "boolean"
                           },
                           "empresas": {
                             "type": "object",
@@ -4408,23 +4337,6 @@
                                         "emailNfe": {
                                           "type": "string"
                                         },
-                                        "pessoa": {
-                                          "type": "object",
-                                          "properties": {
-                                            "data": {
-                                              "type": "object",
-                                              "properties": {
-                                                "id": {
-                                                  "type": "number"
-                                                },
-                                                "attributes": {
-                                                  "type": "object",
-                                                  "properties": {}
-                                                }
-                                              }
-                                            }
-                                          }
-                                        },
                                         "tablecalc": {
                                           "type": "string"
                                         },
@@ -4455,7 +4367,7 @@
                                         "codpais": {
                                           "type": "string"
                                         },
-                                        "responsavel": {
+                                        "pessoa": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
@@ -4776,8 +4688,8 @@
                               }
                             }
                           },
-                          "status": {
-                            "type": "boolean"
+                          "complemento": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -4826,53 +4738,6 @@
                             }
                           }
                         }
-                      }
-                    }
-                  }
-                }
-              },
-              "tablecalc": {
-                "type": "string"
-              },
-              "maxPg": {
-                "type": "string"
-              },
-              "forpg": {
-                "type": "string"
-              },
-              "frete": {
-                "type": "string"
-              },
-              "CNPJ": {
-                "type": "string"
-              },
-              "Ie": {
-                "type": "string"
-              },
-              "fone": {
-                "type": "string"
-              },
-              "celular": {
-                "type": "string"
-              },
-              "CNAE": {
-                "type": "string"
-              },
-              "codpais": {
-                "type": "string"
-              },
-              "responsavel": {
-                "type": "object",
-                "properties": {
-                  "data": {
-                    "type": "object",
-                    "properties": {
-                      "id": {
-                        "type": "number"
-                      },
-                      "attributes": {
-                        "type": "object",
-                        "properties": {}
                       }
                     }
                   }
@@ -9080,6 +8945,9 @@
               "obs": {
                 "type": "string"
               },
+              "status": {
+                "type": "boolean"
+              },
               "empresas": {
                 "type": "array",
                 "items": {
@@ -9094,8 +8962,8 @@
                   "example": "string or id"
                 }
               },
-              "status": {
-                "type": "boolean"
+              "complemento": {
+                "type": "string"
               }
             }
           }
@@ -9151,6 +9019,9 @@
               },
               "obs": {
                 "type": "string"
+              },
+              "status": {
+                "type": "boolean"
               },
               "empresas": {
                 "type": "object",
@@ -9274,6 +9145,36 @@
                             "emailNfe": {
                               "type": "string"
                             },
+                            "tablecalc": {
+                              "type": "string"
+                            },
+                            "maxPg": {
+                              "type": "string"
+                            },
+                            "forpg": {
+                              "type": "string"
+                            },
+                            "frete": {
+                              "type": "string"
+                            },
+                            "CNPJ": {
+                              "type": "string"
+                            },
+                            "Ie": {
+                              "type": "string"
+                            },
+                            "fone": {
+                              "type": "string"
+                            },
+                            "celular": {
+                              "type": "string"
+                            },
+                            "CNAE": {
+                              "type": "string"
+                            },
+                            "codpais": {
+                              "type": "string"
+                            },
                             "pessoa": {
                               "type": "object",
                               "properties": {
@@ -9328,6 +9229,9 @@
                                         "obs": {
                                           "type": "string"
                                         },
+                                        "status": {
+                                          "type": "boolean"
+                                        },
                                         "empresas": {
                                           "type": "object",
                                           "properties": {
@@ -9348,8 +9252,8 @@
                                             }
                                           }
                                         },
-                                        "status": {
-                                          "type": "boolean"
+                                        "complemento": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -9654,53 +9558,6 @@
                                 }
                               }
                             },
-                            "tablecalc": {
-                              "type": "string"
-                            },
-                            "maxPg": {
-                              "type": "string"
-                            },
-                            "forpg": {
-                              "type": "string"
-                            },
-                            "frete": {
-                              "type": "string"
-                            },
-                            "CNPJ": {
-                              "type": "string"
-                            },
-                            "Ie": {
-                              "type": "string"
-                            },
-                            "fone": {
-                              "type": "string"
-                            },
-                            "celular": {
-                              "type": "string"
-                            },
-                            "CNAE": {
-                              "type": "string"
-                            },
-                            "codpais": {
-                              "type": "string"
-                            },
-                            "responsavel": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -9754,8 +9611,8 @@
                   }
                 }
               },
-              "status": {
-                "type": "boolean"
+              "complemento": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -9858,6 +9715,9 @@
               "obs": {
                 "type": "string"
               },
+              "status": {
+                "type": "boolean"
+              },
               "empresas": {
                 "type": "object",
                 "properties": {
@@ -9980,6 +9840,36 @@
                             "emailNfe": {
                               "type": "string"
                             },
+                            "tablecalc": {
+                              "type": "string"
+                            },
+                            "maxPg": {
+                              "type": "string"
+                            },
+                            "forpg": {
+                              "type": "string"
+                            },
+                            "frete": {
+                              "type": "string"
+                            },
+                            "CNPJ": {
+                              "type": "string"
+                            },
+                            "Ie": {
+                              "type": "string"
+                            },
+                            "fone": {
+                              "type": "string"
+                            },
+                            "celular": {
+                              "type": "string"
+                            },
+                            "CNAE": {
+                              "type": "string"
+                            },
+                            "codpais": {
+                              "type": "string"
+                            },
                             "pessoa": {
                               "type": "object",
                               "properties": {
@@ -10034,6 +9924,9 @@
                                         "obs": {
                                           "type": "string"
                                         },
+                                        "status": {
+                                          "type": "boolean"
+                                        },
                                         "empresas": {
                                           "type": "object",
                                           "properties": {
@@ -10054,8 +9947,8 @@
                                             }
                                           }
                                         },
-                                        "status": {
-                                          "type": "boolean"
+                                        "complemento": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -10360,53 +10253,6 @@
                                 }
                               }
                             },
-                            "tablecalc": {
-                              "type": "string"
-                            },
-                            "maxPg": {
-                              "type": "string"
-                            },
-                            "forpg": {
-                              "type": "string"
-                            },
-                            "frete": {
-                              "type": "string"
-                            },
-                            "CNPJ": {
-                              "type": "string"
-                            },
-                            "Ie": {
-                              "type": "string"
-                            },
-                            "fone": {
-                              "type": "string"
-                            },
-                            "celular": {
-                              "type": "string"
-                            },
-                            "CNAE": {
-                              "type": "string"
-                            },
-                            "codpais": {
-                              "type": "string"
-                            },
-                            "responsavel": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -10460,8 +10306,8 @@
                   }
                 }
               },
-              "status": {
-                "type": "boolean"
+              "complemento": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -10597,6 +10443,9 @@
               "obs": {
                 "type": "string"
               },
+              "status": {
+                "type": "boolean"
+              },
               "empresas": {
                 "type": "object",
                 "properties": {
@@ -10719,6 +10568,36 @@
                             "emailNfe": {
                               "type": "string"
                             },
+                            "tablecalc": {
+                              "type": "string"
+                            },
+                            "maxPg": {
+                              "type": "string"
+                            },
+                            "forpg": {
+                              "type": "string"
+                            },
+                            "frete": {
+                              "type": "string"
+                            },
+                            "CNPJ": {
+                              "type": "string"
+                            },
+                            "Ie": {
+                              "type": "string"
+                            },
+                            "fone": {
+                              "type": "string"
+                            },
+                            "celular": {
+                              "type": "string"
+                            },
+                            "CNAE": {
+                              "type": "string"
+                            },
+                            "codpais": {
+                              "type": "string"
+                            },
                             "pessoa": {
                               "type": "object",
                               "properties": {
@@ -10773,6 +10652,9 @@
                                         "obs": {
                                           "type": "string"
                                         },
+                                        "status": {
+                                          "type": "boolean"
+                                        },
                                         "empresas": {
                                           "type": "object",
                                           "properties": {
@@ -10793,8 +10675,8 @@
                                             }
                                           }
                                         },
-                                        "status": {
-                                          "type": "boolean"
+                                        "complemento": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -11099,53 +10981,6 @@
                                 }
                               }
                             },
-                            "tablecalc": {
-                              "type": "string"
-                            },
-                            "maxPg": {
-                              "type": "string"
-                            },
-                            "forpg": {
-                              "type": "string"
-                            },
-                            "frete": {
-                              "type": "string"
-                            },
-                            "CNPJ": {
-                              "type": "string"
-                            },
-                            "Ie": {
-                              "type": "string"
-                            },
-                            "fone": {
-                              "type": "string"
-                            },
-                            "celular": {
-                              "type": "string"
-                            },
-                            "CNAE": {
-                              "type": "string"
-                            },
-                            "codpais": {
-                              "type": "string"
-                            },
-                            "responsavel": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -11199,8 +11034,8 @@
                   }
                 }
               },
-              "status": {
-                "type": "boolean"
+              "complemento": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -11303,6 +11138,9 @@
               "obs": {
                 "type": "string"
               },
+              "status": {
+                "type": "boolean"
+              },
               "empresas": {
                 "type": "object",
                 "properties": {
@@ -11425,6 +11263,36 @@
                             "emailNfe": {
                               "type": "string"
                             },
+                            "tablecalc": {
+                              "type": "string"
+                            },
+                            "maxPg": {
+                              "type": "string"
+                            },
+                            "forpg": {
+                              "type": "string"
+                            },
+                            "frete": {
+                              "type": "string"
+                            },
+                            "CNPJ": {
+                              "type": "string"
+                            },
+                            "Ie": {
+                              "type": "string"
+                            },
+                            "fone": {
+                              "type": "string"
+                            },
+                            "celular": {
+                              "type": "string"
+                            },
+                            "CNAE": {
+                              "type": "string"
+                            },
+                            "codpais": {
+                              "type": "string"
+                            },
                             "pessoa": {
                               "type": "object",
                               "properties": {
@@ -11479,6 +11347,9 @@
                                         "obs": {
                                           "type": "string"
                                         },
+                                        "status": {
+                                          "type": "boolean"
+                                        },
                                         "empresas": {
                                           "type": "object",
                                           "properties": {
@@ -11499,8 +11370,8 @@
                                             }
                                           }
                                         },
-                                        "status": {
-                                          "type": "boolean"
+                                        "complemento": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -11805,53 +11676,6 @@
                                 }
                               }
                             },
-                            "tablecalc": {
-                              "type": "string"
-                            },
-                            "maxPg": {
-                              "type": "string"
-                            },
-                            "forpg": {
-                              "type": "string"
-                            },
-                            "frete": {
-                              "type": "string"
-                            },
-                            "CNPJ": {
-                              "type": "string"
-                            },
-                            "Ie": {
-                              "type": "string"
-                            },
-                            "fone": {
-                              "type": "string"
-                            },
-                            "celular": {
-                              "type": "string"
-                            },
-                            "CNAE": {
-                              "type": "string"
-                            },
-                            "codpais": {
-                              "type": "string"
-                            },
-                            "responsavel": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -11905,8 +11729,8 @@
                   }
                 }
               },
-              "status": {
-                "type": "boolean"
+              "complemento": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",

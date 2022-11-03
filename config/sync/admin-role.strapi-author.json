@@ -255,7 +255,6 @@
       "properties": {
         "fields": [
           "nome",
-          "sobrenome",
           "telefone",
           "email"
         ]
@@ -278,7 +277,6 @@
       "properties": {
         "fields": [
           "nome",
-          "sobrenome",
           "telefone",
           "email"
         ]
@@ -293,7 +291,6 @@
       "properties": {
         "fields": [
           "nome",
-          "sobrenome",
           "telefone",
           "email"
         ]

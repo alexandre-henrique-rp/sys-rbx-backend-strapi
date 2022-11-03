@@ -1916,11 +1916,6 @@
         "emailNfe": {
           "type": "string"
         },
-        "pessoa": {
-          "type": "relation",
-          "relation": "oneToOne",
-          "target": "api::pessoa.pessoa"
-        },
         "tablecalc": {
           "type": "string"
         },
@@ -1950,6 +1945,12 @@
         },
         "codpais": {
           "type": "string"
+        },
+        "pessoa": {
+          "type": "relation",
+          "relation": "oneToOne",
+          "target": "api::pessoa.pessoa",
+          "inversedBy": "empresa"
         },
         "createdAt": {
           "type": "datetime"
@@ -2105,11 +2106,6 @@
           "emailNfe": {
             "type": "string"
           },
-          "pessoa": {
-            "type": "relation",
-            "relation": "oneToOne",
-            "target": "api::pessoa.pessoa"
-          },
           "tablecalc": {
             "type": "string"
           },
@@ -2139,6 +2135,12 @@
           },
           "codpais": {
             "type": "string"
+          },
+          "pessoa": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::pessoa.pessoa",
+            "inversedBy": "empresa"
           }
         },
         "kind": "collectionType"
@@ -2559,19 +2561,53 @@
         "nome": {
           "type": "string"
         },
-        "sobrenome": {
+        "CEP": {
+          "type": "string"
+        },
+        "endereco": {
+          "type": "string"
+        },
+        "numero": {
+          "type": "string"
+        },
+        "bairro": {
+          "type": "string"
+        },
+        "cidade": {
+          "type": "string"
+        },
+        "uf": {
+          "type": "string"
+        },
+        "CPF": {
+          "type": "string"
+        },
+        "RG": {
+          "type": "string"
+        },
+        "whatsapp": {
           "type": "string"
         },
         "telefone": {
           "type": "string"
         },
         "email": {
-          "type": "email"
+          "type": "string"
         },
-        "empresas": {
+        "pais": {
+          "type": "string"
+        },
+        "obs": {
+          "type": "richtext"
+        },
+        "status": {
+          "type": "boolean"
+        },
+        "empresa": {
           "type": "relation",
-          "relation": "oneToMany",
-          "target": "api::empresa.empresa"
+          "relation": "oneToOne",
+          "target": "api::empresa.empresa",
+          "inversedBy": "pessoa"
         },
         "createdAt": {
           "type": "datetime"
@@ -2622,19 +2658,53 @@
           "nome": {
             "type": "string"
           },
-          "sobrenome": {
+          "CEP": {
+            "type": "string"
+          },
+          "endereco": {
+            "type": "string"
+          },
+          "numero": {
+            "type": "string"
+          },
+          "bairro": {
+            "type": "string"
+          },
+          "cidade": {
+            "type": "string"
+          },
+          "uf": {
+            "type": "string"
+          },
+          "CPF": {
+            "type": "string"
+          },
+          "RG": {
+            "type": "string"
+          },
+          "whatsapp": {
             "type": "string"
           },
           "telefone": {
             "type": "string"
           },
           "email": {
-            "type": "email"
+            "type": "string"
           },
-          "empresas": {
+          "pais": {
+            "type": "string"
+          },
+          "obs": {
+            "type": "richtext"
+          },
+          "status": {
+            "type": "boolean"
+          },
+          "empresa": {
             "type": "relation",
-            "relation": "oneToMany",
-            "target": "api::empresa.empresa"
+            "relation": "oneToOne",
+            "target": "api::empresa.empresa",
+            "inversedBy": "pessoa"
           }
         },
         "kind": "collectionType"

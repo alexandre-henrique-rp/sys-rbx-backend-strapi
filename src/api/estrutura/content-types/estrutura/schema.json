@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estruturas",
+  "info": {
+    "singularName": "estrutura",
+    "pluralName": "estruturas",
+    "displayName": "estrutura"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lancarEstoque": {
+      "type": "string"
+    },
+    "tipoEstoque": {
+      "type": "string"
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::produto.produto",
+      "mappedBy": "estrutura"
+    }
+  }
+}

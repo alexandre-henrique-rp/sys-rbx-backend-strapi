@@ -1,0 +1,106 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedidos",
+  "info": {
+    "singularName": "pedido",
+    "pluralName": "pedidos",
+    "displayName": "pedido",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "date"
+    },
+    "data_saida": {
+      "type": "datetime"
+    },
+    "data_prevista": {
+      "type": "date"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "numero_loja": {
+      "type": "string"
+    },
+    "loja": {
+      "type": "string"
+    },
+    "nat_operacao": {
+      "type": "text"
+    },
+    "vendedor": {
+      "type": "text"
+    },
+    "cliente": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cliente.cliente",
+      "inversedBy": "pedidos"
+    },
+    "vlr_frete": {
+      "type": "decimal"
+    },
+    "vlr_desconto": {
+      "type": "text"
+    },
+    "obs": {
+      "type": "richtext"
+    },
+    "obs_internas": {
+      "type": "richtext"
+    },
+    "numeroOrdemCompra": {
+      "type": "string"
+    },
+    "outrasDespesas": {
+      "type": "decimal"
+    },
+    "transporte": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::transporte.transporte",
+      "inversedBy": "pedidos"
+    },
+    "dados_etiqueta": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::dados-etiqueta.dados-etiqueta",
+      "inversedBy": "pedidos"
+    },
+    "volume": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::volume.volume",
+      "inversedBy": "pedidos"
+    },
+    "item": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::item.item",
+      "inversedBy": "pedidos"
+    },
+    "parcela": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::parcela.parcela",
+      "inversedBy": "pedidos"
+    },
+    "forma_pagamento": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::forma-pagamento.forma-pagamento",
+      "inversedBy": "pedidos"
+    },
+    "intermediador": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::intermediador.intermediador",
+      "inversedBy": "pedidos"
+    }
+  }
+}

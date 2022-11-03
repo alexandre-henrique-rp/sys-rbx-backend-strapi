@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "depositos",
+  "info": {
+    "singularName": "deposito",
+    "pluralName": "depositos",
+    "displayName": "deposito",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "identificador": {
+      "type": "integer"
+    },
+    "estoque": {
+      "type": "decimal"
+    },
+    "produtos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::produto.produto",
+      "mappedBy": "deposito"
+    }
+  }
+}
