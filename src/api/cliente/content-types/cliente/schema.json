@@ -1,0 +1,107 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "cliente",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "fantasia": {
+      "type": "string"
+    },
+    "tipoPessoa": {
+      "type": "string",
+      "required": true
+    },
+    "contribuinte": {
+      "type": "integer",
+      "required": true
+    },
+    "cpf_cnpj": {
+      "type": "string",
+      "required": true
+    },
+    "ie_rg": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "text"
+    },
+    "numero": {
+      "type": "string"
+    },
+    "complemento": {
+      "type": "text"
+    },
+    "bairro": {
+      "type": "string"
+    },
+    "cep": {
+      "type": "string"
+    },
+    "cidade": {
+      "type": "string"
+    },
+    "uf": {
+      "type": "string"
+    },
+    "fone": {
+      "type": "string"
+    },
+    "celular": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "emailNfe": {
+      "type": "text"
+    },
+    "informacaoContato": {
+      "type": "text"
+    },
+    "limiteCredito": {
+      "type": "decimal"
+    },
+    "paisOrigem": {
+      "type": "text"
+    },
+    "codigo": {
+      "type": "string"
+    },
+    "site": {
+      "type": "text"
+    },
+    "obs": {
+      "type": "richtext"
+    },
+    "tipo_contato": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tipo-contato.tipo-contato",
+      "inversedBy": "clientes"
+    },
+    "pedidos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::pedido.pedido",
+      "mappedBy": "cliente"
+    },
+    "propostacomercials": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::propostacomercial.propostacomercial",
+      "mappedBy": "cliente"
+    }
+  }
+}

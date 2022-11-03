@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "propostacomercials",
+  "info": {
+    "singularName": "propostacomercial",
+    "pluralName": "propostacomercials",
+    "displayName": "propostacomercial"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "data": {
+      "type": "date"
+    },
+    "dataProximoContato": {
+      "type": "date"
+    },
+    "contatoAc": {
+      "type": "string"
+    },
+    "loja": {
+      "type": "integer"
+    },
+    "numero": {
+      "type": "integer"
+    },
+    "vendedor": {
+      "type": "text"
+    },
+    "desconto": {
+      "type": "string"
+    },
+    "outrasDespesas": {
+      "type": "decimal"
+    },
+    "validade": {
+      "type": "integer"
+    },
+    "prazoEntrega": {
+      "type": "text"
+    },
+    "garantia": {
+      "type": "integer"
+    },
+    "observacao": {
+      "type": "text"
+    },
+    "obsInterna": {
+      "type": "string"
+    },
+    "assinaturaSaudacao": {
+      "type": "string"
+    },
+    "assinaturaResponsavel": {
+      "type": "string"
+    },
+    "cliente": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cliente.cliente",
+      "inversedBy": "propostacomercials"
+    },
+    "items": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::item.item",
+      "mappedBy": "propostacomercial"
+    },
+    "transporte": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::transporte.transporte",
+      "inversedBy": "propostacomercials"
+    },
+    "parcela": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::parcela.parcela",
+      "inversedBy": "propostacomercials"
+    },
+    "forma_pagamento": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::forma-pagamento.forma-pagamento",
+      "inversedBy": "propostacomercials"
+    }
+  }
+}
